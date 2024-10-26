@@ -27,5 +27,5 @@
 
 6> (http://localhost:3000/addSkills/specturet@gmail.com) => This url request from postman will add new skills in the previously saved json data of that specific email provided in the url.
     To add the skills go to the Body=>raw and then the format of the json data should be like
-    ["ruby","laravel"]
+    ["#ruby","#laravel"]
     Then simply click on send the request and the skills will update in database.
