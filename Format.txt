@@ -1,0 +1,31 @@
+1> (http://localhost:3000/insertData) => This url request from postman will insert data into the database.
+2> (http://localhost:3000/deleteData/yourEmail) => This url request from postman will delete data from the database of the specific email provided in the url.
+3> (http://localhost:3000/display/specturet@gmail.com) => This url request from postman will display the created resume from the json data of that specific email provided in the url.
+4> (http://localhost:3000/addExperience/specturet@gmail.com) => This url request from postman will add a new pair of experience in the previously saved json data of that specific email provided in the url.
+    To add the new experience go to the Body=>raw and then the format of the json data should be like
+    {
+        "company": "GitHub",
+        "company_logo": "github.png",
+        "postion": "SENIOR DEVELOPER",
+        "duties": [
+          "RESEARCH AND DEVELOPMENTS",
+          "FRONTEND DEVELOPMENT"
+        ]
+    }
+    Then simply click on send the request and the experience will update in database.
+    
+5> (http://localhost:3000/addEducation/specturet@gmail.com) => This url request from postman will add a new pair of education in the previously saved json data of that specific email provided in the url.
+    To add the education go to the Body=>raw and then the format of the json data should be like
+   {
+      "school_name": "NCIT",
+      "logo": "informatis.jpg",
+      "level": "DIPLOMA / ADVANCE DIPLOMA",
+      "title": "BSC HONORS IN COMPUTING",
+      "year": "2008-2010"
+    }
+    Then simply click on send the request and the education will update in database.
+
+6> (http://localhost:3000/addSkills/specturet@gmail.com) => This url request from postman will add new skills in the previously saved json data of that specific email provided in the url.
+    To add the skills go to the Body=>raw and then the format of the json data should be like
+    ["ruby","laravel"]
+    Then simply click on send the request and the skills will update in database.
