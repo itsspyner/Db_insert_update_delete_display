@@ -42,6 +42,6 @@ The resume can then be displayed as a PDF.**
 ## Implementation
 - node index.js its should say "Listening on port 3000" and "connected successfully".
 - Then head to postman->file hit new and click in http.
-- Then change the get request to post request and write any of the given url.
-- Then in the body section choose raw and put the JSON resume data.
-- Then click on send the resume will be generated in postman.
+- Then change the get request to post request and write any of the given url described in the format.txt       
+  file (https://github.com/itsspyner/Db_insert_update_delete_display/blob/main/Format.txt).
+- Then click on send in the postman and any operation you have choosen should have been completed.
